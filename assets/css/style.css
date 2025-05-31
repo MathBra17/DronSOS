@@ -13,6 +13,29 @@ a:hover {
     opacity: 0.7;
 }
 
+
+
+body {
+    background: url('/assets/img/fundo.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 92vh;
+}
+
+main {
+    z-index: 1;
+}
+
+header {
+    width: 100%;
+    padding: 20px 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d1d3a;
+    z-index: 1000;
+}
+
 .logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -31,26 +54,33 @@ header {
 nav {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
-body {
-    background: url('/assets/img/fundo.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 92vh;
-}
-
-.nav-list {
-    list-style: none;
+#nav-list {
     display: flex;
+    list-style: none;
+    gap: 40px;
 }
 
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
+
+.nav-item.active a {
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid #fff;
+  }
+  
+  #nav_list .nav-item a:hover {
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid #fff;
+  }
 
 .mobile-menu {
     display: none;
@@ -71,8 +101,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 92vh;
+    min-height: 92vh;
     padding: 20px;
+    margin-top: 80px;
 }
 
 #problema h1, #tecnologia h1, #objetivo h1, #publico-alvo h1, #beneficios h1, #dia-a-dia h1 {
@@ -94,10 +125,6 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/* Seção: Relatos */
-body {
-    font-family: Arial, sans-serif;
-}
 
 #form-section {
     text-align: center;
