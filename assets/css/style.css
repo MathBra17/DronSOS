@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -40,10 +42,12 @@ header {
     box-sizing: border-box;
 }
 
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+#logo {
+    width: 150px;
+    height: auto;
+    z-index: 2;
+    object-fit: contain;
+    max-width: 50px;
 }
 
 nav {
@@ -89,6 +93,7 @@ nav {
     margin: 8px;
 }
 
+
 /* ==== Seções ==== */
 #problema, #tecnologia, #objetivo, #publico-alvo, #beneficios, #dia-a-dia {
     color: white;
@@ -104,12 +109,14 @@ nav {
 }
 
 #problema h1, #tecnologia h1, #objetivo h1, #publico-alvo h1, #beneficios h1, #dia-a-dia h1 {
+    font-family: 'Poppins';
     font-size: 3rem;
     color: #b30000;
     margin-bottom: 20px;
 }
 
 #problema p, #tecnologia p, #objetivo p, #publico-alvo p, #beneficios p, #dia-a-dia p {
+    font-family: 'Poppins';
     font-size: 1.5rem;
     max-width: 700px;
     margin-bottom: 30px;
