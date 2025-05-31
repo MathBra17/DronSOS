@@ -89,7 +89,7 @@ nav {
     margin: 8px;
 }
 
-/*==== Seções ====*/
+/* ==== Seções ==== */
 #problema, #tecnologia, #objetivo, #publico-alvo, #beneficios, #dia-a-dia {
     color: white;
     text-align: center;
@@ -121,7 +121,7 @@ nav {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-/*==== Seção: Problema ====*/
+/* ==== Seção: Problema ==== */
 .conteudo-problema {
     display: flex;
     gap: 70px;
@@ -150,7 +150,36 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/*==== Seção: Benefícios ====*/
+/* ==== Seção: Tecnologia ==== */
+.conteudo-tecnologia {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.conteudo-tecnologia .bloco-tecnologia {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    flex: 1;
+    text-align: center;
+}
+
+.conteudo-tecnologia .bloco-tecnologia p {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.conteudo-tecnologia .bloco-tecnologia img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* ==== Seção: Benefícios ==== */
 .conteudo-beneficios {
     display: flex;
     gap: 70px;
@@ -179,7 +208,7 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/*==== Seção: Relatos ====*/
+/* ==== Seção: Relatos ==== */
 #form-section {
     text-align: center;
     color: white;
