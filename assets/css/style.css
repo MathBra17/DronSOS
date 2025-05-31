@@ -13,17 +13,19 @@ a:hover {
     opacity: 0.7;
 }
 
-
-
 body {
     background: url('/assets/img/fundo.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 92vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 main {
+    position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 header {
@@ -32,23 +34,16 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     background-color: #1d1d3a;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
-}
-
-header {
-    width: 100%;
-    padding: 20px 8%;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    background: #1d1d3a;
 }
 
 nav {
@@ -101,9 +96,10 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 92vh;
+    min-height: 100vh;
     padding: 20px;
     margin-top: 80px;
+    box-sizing: border-box;
 }
 
 #problema h1, #tecnologia h1, #objetivo h1, #publico-alvo h1, #beneficios h1, #dia-a-dia h1 {
@@ -124,7 +120,6 @@ nav {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
 
 #form-section {
     text-align: center;
