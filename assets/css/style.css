@@ -57,30 +57,7 @@ body {
     margin: 8px;
 }
 
-@media (max-width: 999px) {
-    body {
-        overflow: hidden;
-    }
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vw;
-        background: #1d1d3a;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .nav-list li {
-        margin-left: 0;
-    }
-    .mobile-menu {
-        display: block;
-    }
-}
-
-.problema, .tecnologia, .objetivo, .publico-alvo, .beneficios, .dia-a-dia {
+#problema, #tecnologia, #objetivo, #publico-alvo, #beneficios, #dia-a-dia {
     color: white;
     text-align: center;
     display: flex;
@@ -91,19 +68,19 @@ body {
     padding: 20px;
 }
 
-.problema h1, .tecnologia h1, .objetivo h1, .publico-alvo h1, .beneficios h1, .dia-a-dia h1 {
+#problema h1, #tecnologia h1, #objetivo h1, #publico-alvo h1, #beneficios h1, #dia-a-dia h1 {
     font-size: 3rem;
     color: #b30000;
     margin-bottom: 20px;
 }
 
-.problema p, .tecnologia p, .objetivo p, .publico-alvo p, .beneficios p, .dia-a-dia p {
+#problema p, #tecnologia p, #objetivo p, #publico-alvo p, #beneficios p, #dia-a-dia p {
     font-size: 1.5rem;
     max-width: 700px;
     margin-bottom: 30px;
 }
 
-.problema img, .tecnologia img, .objetivo img, .publico-alvo img, .beneficios img, .dia-a-dia img {
+#problema img, #tecnologia img, #objetivo img, #publico-alvo img, #beneficios img, #dia-a-dia img {
     max-width: 500px;
     width: 100%;
     border-radius: 10px;
