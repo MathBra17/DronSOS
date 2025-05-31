@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DronSOS - Objetivo</title>
+    <title>DronSOS - Relatos</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -19,22 +19,32 @@
             <ul class="nav-list">
                 <li><a href="./problema.html">Problema</a></li>
                 <li><a href="./tecnologia.html">Tecnologia</a></li>
-                <li><a href="">Objetivo</a></li>
+                <li><a href="./objetivo.html">Objetivo</a></li>
                 <li><a href="./publico-alvo.html">Público-alvo</a></li>
                 <li><a href="./beneficios.html">Benefícios</a></li>
                 <li><a href="./dia-a-dia.html">Dia a dia</a></li>
-                <li><a href="./relatos.html">Relatos</a></li>
+                <li><a href="">Relatos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Seção: Objetivo -->
-        <section class="objetivo">
-            <h1>Objetivo</h1>
-            <p>Queremos que com a utilização dos drones a troca de informação seja mais rápida e esses dados cheguem rapidamente aos usuários.</p>
-            <img src="./assets/img/objetivo.png" alt="Imagem do objetivo">
-        </section>
+        <!-- Seção: Relatos -->
+        <section class="form-section">
+            <h2 class="form-title">Envie seu Relato</h2>
+            <form class="relato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="local">Local:</label>
+                <input type="text" id="local" name="local" required>
+
+                <label for="relato">Relato:</label>
+                <textarea id="relato" name="relato" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
 </body>
 
