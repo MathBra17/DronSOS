@@ -74,12 +74,12 @@ nav {
 .nav-item.active a {
     color: var(--color-neutral-1);
     border-bottom: 3px solid #fff;
-  }
-  
-  #nav_list .nav-item a:hover {
+}
+
+#nav_list .nav-item a:hover {
     color: var(--color-neutral-1);
     border-bottom: 3px solid #fff;
-  }
+}
 
 .mobile-menu {
     display: none;
@@ -95,7 +95,12 @@ nav {
 
 
 /* ==== Seções ==== */
-#problema, #tecnologia, #objetivo, #publico-alvo, #beneficios, #dia-a-dia {
+#problema,
+#tecnologia,
+#objetivo,
+#publico-alvo,
+#beneficios,
+#dia-a-dia {
     color: white;
     text-align: center;
     display: flex;
@@ -108,26 +113,42 @@ nav {
     box-sizing: border-box;
 }
 
-#problema h1, #tecnologia h1, #objetivo h1, #publico-alvo h1, #beneficios h1, #dia-a-dia h1 {
+#problema h1,
+#tecnologia h1,
+#objetivo h1,
+#publico-alvo h1,
+#beneficios h1,
+#dia-a-dia h1 {
     font-family: 'Poppins';
     font-size: 3rem;
     color: #b30000;
     margin-bottom: 20px;
 }
 
-#problema p, #tecnologia p, #objetivo p, #publico-alvo p, #beneficios p, #dia-a-dia p {
+#problema p,
+#tecnologia p,
+#objetivo p,
+#publico-alvo p,
+#beneficios p,
+#dia-a-dia p {
     font-family: 'Poppins';
     font-size: 1.5rem;
     max-width: 700px;
     margin-bottom: 30px;
 }
 
-#problema img, #tecnologia img, #objetivo img, #publico-alvo img, #beneficios img, #dia-a-dia img {
+#problema img,
+#tecnologia img,
+#objetivo img,
+#publico-alvo img,
+#beneficios img,
+#dia-a-dia img {
     max-width: 500px;
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 /* ==== Seção: Problema ==== */
 .conteudo-problema {
     display: flex;
@@ -154,7 +175,7 @@ nav {
 .conteudo-problema .bloco-problema img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ==== Seção: Tecnologia ==== */
@@ -183,7 +204,7 @@ nav {
 .conteudo-tecnologia .bloco-tecnologia img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ==== Seção: Objetivo ==== */
@@ -212,7 +233,7 @@ nav {
 .conteudo-objetivo .bloco-objetivo img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ==== Seção: Benefícios ==== */
@@ -241,7 +262,7 @@ nav {
 .conteudo-beneficios .bloco-beneficios img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ==== Seção: Relatos ==== */
@@ -293,4 +314,37 @@ nav {
 
 #relato-form button:hover {
     background-color: darkred;
+}
+
+/* ==== Rodapé ==== */
+footer {
+    background-color: #1d1d3a;
+    padding: 20px 8%;
+    box-sizing: border-box;
+    z-index: 1001;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#copyright {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.social-media-buttons a {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    color: #00aaff;
+    transform: scale(1.2);
 }
