@@ -19,13 +19,20 @@ a:hover {
     letter-spacing: 4px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+header {
+    width: 100%;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
     background: #1d1d3a;
-    height: 8vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body {
@@ -92,7 +99,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.form-section {
+#form-section {
     text-align: center;
     color: white;
     padding: 40px;
@@ -104,7 +111,7 @@ body {
     margin-bottom: 20px;
 }
 
-.relato-form {
+#relato-form {
     max-width: 500px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -112,22 +119,22 @@ body {
     border-radius: 10px;
 }
 
-.relato-form label {
+#relato-form label {
     display: block;
     text-align: left;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
-.relato-form input,
-.relato-form textarea {
+#relato-form input,
+#relato-form textarea {
     width: 95%;
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
-.relato-form button {
+#relato-form button {
     background-color: red;
     color: white;
     padding: 10px 20px;
@@ -138,6 +145,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.relato-form button:hover {
+#relato-form button:hover {
     background-color: darkred;
 }
