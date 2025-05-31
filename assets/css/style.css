@@ -89,6 +89,7 @@ nav {
     margin: 8px;
 }
 
+/*==== Seções ====*/
 #problema, #tecnologia, #objetivo, #publico-alvo, #beneficios, #dia-a-dia {
     color: white;
     text-align: center;
@@ -121,6 +122,36 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/*==== Seção: Benefícios ====*/
+.conteudo-beneficios {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.conteudo-beneficios .bloco {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    flex: 1;
+    text-align: center;
+}
+
+.conteudo-beneficios .bloco p {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.conteudo-beneficios .bloco img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*==== Seção: Relatos ====*/
 #form-section {
     text-align: center;
     color: white;
@@ -170,3 +201,5 @@ nav {
 #relato-form button:hover {
     background-color: darkred;
 }
+
+
