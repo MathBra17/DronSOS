@@ -24,12 +24,8 @@ body {
     padding: 0;
 }
 
-main {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-}
 
+/* ==== Cabeçalho ==== */
 header {
     width: 100%;
     padding: 20px 8%;
@@ -81,20 +77,13 @@ nav {
     border-bottom: 3px solid #fff;
 }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-}
-
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-}
-
-
 /* ==== Seções ==== */
+main {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
 #problema,
 #tecnologia,
 #objetivo,
